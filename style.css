@@ -1,0 +1,84 @@
+body {
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(1.jfif);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,.7);
+}
+
+.form h1 {
+	margin: 30px 100px;
+	padding: 0;
+	text-align: center;
+	color: #a51b1b;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.input-form {
+	margin: 15px 40px;
+}
+
+.input-form input {
+	padding: 10px;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	background: none;
+	outline: none;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+	border: 1px solid #9c1111;
+}
+
+.input-form input[type="submit"]:hover {
+	background: #800606;
+}
+
+.form a {
+	display: block;
+	padding-top: 19px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+	height: 40px;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+.form a:hover {
+	color: #cccccc;
+}
+
+.str1 {
+	background-color: #a00909;
+}
+
+.str1:hover {
+	background-color: #700808;
+}
+
+.error-text {
+	color: red;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.error-img {
+	width: 100%;
+	height: 100%;
+}
